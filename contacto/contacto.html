@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+</head>
+<body>
+	<h1>Datos de contacto</h1>
+	<form action="" method="">
+		<table>
+			<tr>
+				<td><b>Nombre completo:</b> </td>
+				<td><input type="text" name="nombre_completo" ></td>
+			</tr>
+			
+			<tr>
+				<td><b>Correo:</b></td>
+				<td><input type="email" name="emal"></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<p><br><b>Tipo de Sitio</b></p>
+					<input type="radio" id="t_sitio" name="tipo_sitio">
+					<label for="t_sitio">Informativo</label><br>
+					<input type="radio" id="t_sitio" name="tipo_sitio">
+					<label for="t_evento">Portafolio</label><br>
+					<input type="radio" id="t_sitio" name="tipo_sitio">
+					<label for="t_sitio">Blog</label><br>
+					<input type="radio" id="t_sitio" name="tipo_sitio">
+					<label for="t_evento">Tienda en linea</label><br>
+				</td>
+				<td></td>
+			</tr>
+				
+			<tr>
+				<td><b>Objetivo principal del sitio</b></td>
+				<td><textarea id="descripcion" name="descripcion" 
+								placeholder="Describe el obejtivo principal del sitio"
+								rows="10" cols="50"></textarea></td><br>
+			</tr>
+			
+			<tr>
+				<td><br><b>¿Cuenta con textos imagenes o logotipos?</b></td>
+				<td></td>
+			</tr>
+			<br>
+			<tr><td></td><td></td></tr>	
+			
+			<tr>
+				<br><td><input type="radio" id="t_info" name="t_info">
+						<label for="t_info">Si</label>
+						<input type="radio" id="t_info" name="t_info">
+						<label for="t_info">No</label>
+					</td>
+				<td></td>
+			</tr>
+			
+			<tr>
+				<td><br><b>Selecciona el estilo visual que prefieres</b></td>
+				<td></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<input type="radio" id="moderno" name="tipo_estilo" value="moderno">
+					<label for="moderno">moderno</label><br>
+					
+					<input type="radio" id="elegante" name="tipo_estilo" value="elegante">
+					<label for="elegante">elegante</label><br>
+					
+					<input type="radio" id="minimalista" name="tipo_estilo" value="minimalista">
+					<label for="minimalista">minimalista</label><br>
+					
+					<input type="radio" id="divertido" name="tipo_estilo" value="divertido">
+					<label for="divertido">divertido</label><br> 
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><br><b>Que quieres incluir en el sitio</b></td>
+				<td></td>
+			</tr>
+			
+			<tr>
+				<td><input type="checkbox" id="imagenes" name="tipo_contenido" value="imagenes">
+					<label for="imagenes">Imagenes</label><br>
+					
+					<input type="checkbox" id="video" name="tipo_contenido" value="video">
+					<label for="video">Videos</label><br>
+					
+					<input type="checkbox" id="audios" name="tipo_contennido" value="audios">
+					<label for="audios">Audios</label><br>
+					
+					<input type="checkbox" id="graficos" name="tipo_contenido" value="graficos">
+					<label for="graficos">Graficos</label><br>
+					
+					<input type="checkbox" id="formularios" name="tipo_contenido" vlaue="formularios">
+					<label for="">Formularios</label><br>
+				</td>
+				<td></td>
+			</tr>
+			
+			<tr>
+				<td>Puedes agregar o comentar acerca de la información</td>
+				<td>
+					<textarea id="comentario" name="comentario" 
+								placeholder="Puedes  escribir en este apartado"
+								rows="10" cols="50"></textarea>
+				</td>
+			</tr>
+			
+		</table>
+		
+		<br><input type="submit" value="Enviar">
+	</form>
+	<br><a href="../index.html">Regresar</a>
+</body>
+</html>
